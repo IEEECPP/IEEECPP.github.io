@@ -3410,7 +3410,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: #01426A;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3589,7 +3589,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		background-color: #00629B; , /* Original Color: #2a2f4a */
 	}
 
 		#main > * {
