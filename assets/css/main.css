@@ -3258,24 +3258,26 @@ input, select, textarea {
 			position: absolute;
 		}
 
+			/* Changes header font color */
+
 			#header.alt.style1 .logo strong {
 				color: #6fc3df;
 			}
 
 			#header.alt.style2 .logo strong {
-				color: #8d82c4;
+				color: #006A31;
 			}
 
 			#header.alt.style3 .logo strong {
-				color: #ec8d81;
+				color: #01426A;
 			}
 
 			#header.alt.style4 .logo strong {
-				color: #e7b788;
+				color: #DFAD33;
 			}
 
 			#header.alt.style5 .logo strong {
-				color: #8ea9e8;
+				color: #00629B;
 			}
 
 			#header.alt.style6 .logo strong {
