@@ -82,15 +82,15 @@
 					<form method="post" action"#">
 						<div class="row gtr-uniform">
 							<div class="col-6 col-12-xsmall">
-								<input type="text" name="member-name" value placeholder="Name*" required>
+								<input type="text" name="member-name" value placeholder="Name" required>
 							</div>
 							<div class="col-6 col-12-xsmall">
-								<input type="email" name="member-email" value placeholder="Email*" required>
+								<input type="email" name="member-email" value placeholder="Email" required>
 							</div>
 							<!-- Break -->
 							<div class="col-6 col-12-xsmall">
 								<select name="member-year" id="member-year" required>
-									<option value>- Year -*</option>
+									<option value>Year</option>
 									<option value="1">Freshmen</option>
 									<option value="2">Sophomore</option>
 									<option value="3">Junior</option>
@@ -99,7 +99,7 @@
 								</select>
 							</div>
 							<div class="col-6 col-12-xsmall">
-								<input type="number" name="member-ID" value placeholder="Bronco ID">
+								<input type="text" name="member-ID" value placeholder="Bronco ID" required>
 							</div>
 							<!-- Break -->
 							<div class="col-3 col-12-small">
@@ -115,8 +115,15 @@
 								<label for="member-CS">CS</label>
 							</div>
 							<div class="col-3 col-12small">
-								<input type="tet" id="member-Other" name="member-Other">
+								<input type="radio" id="member-Other" name="member-Other">
 								<label for="member-Other">Other</label>
+							</div>
+							<!-- Break -->
+							<div class="col-12">
+								<ul class="actions">
+									<li><input type="submit" value="Submit Form" class="primary"></li>
+									<li><input type="reset" value="Reset"></li>
+								</ul>
 							</div>
 						</div>
 					</form>
