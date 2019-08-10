@@ -3800,7 +3800,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		pointer-events: none;
-		background: rgba(1, 66, 106, 0.9);	/* Original Colors: rgba(36, 41, 67, 0.9) */
+		background: rgba(36, 41, 67, 0.9);
 		box-shadow: none;
 		height: 100%;
 		left: 0;
