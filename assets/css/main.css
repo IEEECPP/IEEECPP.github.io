@@ -3351,27 +3351,7 @@ input, select, textarea {
 				#header nav a {
 					padding: 0 0.5em;
 				}
-				body {
-					overflow-x: hidden;
-				}
-				.nav-links{
-					position: absolute;
-					right: 0px;
-					height: 35vh;
-					top: 8vh;
-					display: flex; 
-					background-color: #242943;
-					flex-direction: column;
-					align-items: center;
-					width: 100%;
-					transform: translateX(100%);
-				}
-				.nav-links li {
-					opacity: 0;
-				}
-				.burger div{
-					display: block !important;
-				}
+			
 					#header nav a:last-child {
 						padding-right: 1em;
 					}
@@ -3392,6 +3372,34 @@ input, select, textarea {
 								right: 1.5em;
 							}
 
+		}
+
+		@media screen and (max-width: 736px) {
+					
+			body {
+				overflow-x: hidden;
+			}
+			
+			.nav-links{
+				position: absolute;
+				right: 0px;
+				height: 35vh;
+				top: 8vh;
+				display: flex; 
+				background-color: #242943;
+				flex-direction: column;
+				align-items: center;
+				width: 100%;
+				transform: translateX(100%);
+			}
+			
+			.nav-links li {
+				opacity: 0;
+			}
+			
+			.burger {
+				display: block !important;
+			}
 		}
 
 		@media screen and (max-width: 480px) {
