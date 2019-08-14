@@ -3186,6 +3186,22 @@ input, select, textarea {
 				list-style-type: none;
 			}
 
+			.drop-down {
+				background-color: rgba(36, 41, 67, 0.5);
+				text-align: center; 
+				line-height: 40px;
+				display:none;
+			}
+
+				.drop-down a:hover {
+					background-color: rgba(36, 41, 67, 0.8);
+				}
+
+				.nav-links li:hover .drop-down {
+					display: block;
+					position: absolute;
+				}
+
 			#header .burger {
 				display: none;
 				cursor: pointer;
