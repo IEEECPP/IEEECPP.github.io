@@ -3337,7 +3337,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 795px) {
 
 			#header {
 				height: 2.75em;
@@ -3400,6 +3400,7 @@ input, select, textarea {
 			.burger {
 				display: block !important;
 			}
+			
 		}
 
 		@media screen and (max-width: 480px) {
