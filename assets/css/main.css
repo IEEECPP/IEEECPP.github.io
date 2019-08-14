@@ -3180,6 +3180,25 @@ input, select, textarea {
 			height: inherit;
 			line-height: inherit;
 		}
+			
+			#header .nav-links {
+				display: flex;
+				list-style-type: none;
+			}
+
+			#header .burger {
+				display: none;
+				cursor: pointer;
+				padding: 1.05em;
+				padding-right: 2em;
+			}
+
+			 #header .burger div {
+				width: 1.6em;
+				height: 0.06em;
+				background-color: #ffffff;
+				margin: 15%;
+			}
 
 			#header nav a {
 				border: 0;
@@ -3291,7 +3310,9 @@ input, select, textarea {
 		body.is-preload #header.alt {
 			opacity: 0;
 		}
-
+		
+		
+			
 		@media screen and (max-width: 1680px) {
 
 			#header nav a[href="#menu"] {
@@ -3330,7 +3351,27 @@ input, select, textarea {
 				#header nav a {
 					padding: 0 0.5em;
 				}
-
+				body {
+					overflow-x: hidden;
+				}
+				.nav-links{
+					position: absolute;
+					right: 0px;
+					height: 35vh;
+					top: 8vh;
+					display: flex; 
+					background-color: #242943;
+					flex-direction: column;
+					align-items: center;
+					width: 100%;
+					transform: translateX(100%);
+				}
+				.nav-links li {
+					opacity: 0;
+				}
+				.burger div{
+					display: block !important;
+				}
 					#header nav a:last-child {
 						padding-right: 1em;
 					}
@@ -3785,7 +3826,8 @@ input, select, textarea {
 		}
 
 /* Menu */
-
+	
+	
 	#menu {
 		-moz-transition: -moz-transform 0.35s ease, opacity 0.35s ease, visibility 0.35s;
 		-webkit-transition: -webkit-transform 0.35s ease, opacity 0.35s ease, visibility 0.35s;
