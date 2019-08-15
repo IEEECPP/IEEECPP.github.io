@@ -2204,6 +2204,16 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.fit.chev {
+			display: block;
+			margin: auto;
+			width: 50%;
+		}
+			
+			.image.fit.chev img {
+				width: 70%;
+			}
+
 		.image.main {
 			display: block;
 			margin: 2.5em 0;
@@ -2218,6 +2228,10 @@ input, select, textarea {
 
 				.image.main {
 					margin: 1.5em 0;
+				}
+				
+				.image.fit.chev {
+					margin: auto;
 				}
 
 			}
