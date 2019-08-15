@@ -3340,7 +3340,15 @@ input, select, textarea {
 			}
 
 			#header.alt.style6 .logo strong {
-				color: #87c5a4;
+				color: #2F2F2F;
+			}
+
+			#header.alt.style7 .logo strong {
+				color: #2F2F2F;
+			}
+
+			#header.alt.style8 .logo strong {
+				color: #2F2F2F;
 			}
 
 		body.is-preload #header.alt {
@@ -3603,7 +3611,15 @@ input, select, textarea {
 		}
 
 		#banner.style6:after {
-			background-color: #87c5a4;
+			background-color: #2F2F2F;
+		}
+
+		#banner.style7:after {
+			background-color: #2F2F2F;
+		}
+
+		#banner.style8:after {
+			background-color: #2F2F2F;
 		}
 
 		body.is-preload #banner:after {
