@@ -2213,6 +2213,12 @@ input, select, textarea {
 			.image.fit.chev img {
 				width: 70%;
 			}
+		
+		.image.fit.pan {
+			display: block;
+			margin: auto;
+			width: 70%;
+		}
 
 		.image.main {
 			display: block;
